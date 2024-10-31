@@ -33,5 +33,7 @@ client.on('interactionCreate', async interaction =>{
         await interaction.reply('Pong!');
     }
 });
+//Création de la commande et affichage de la description
+
 
 client.login(TOKEN);
