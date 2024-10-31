@@ -1,6 +1,6 @@
 const [Client, GatewayIntentBits] = require('discord.js')
 
-const Client = new Client({
+const client = new Client({
     //Permissions du bot
     Intents: [
         GatewayIntentBits.Guilds,
