@@ -1,4 +1,4 @@
-const [Client, GatewayIntentBits] = require('discord.js')
+const {Client, GatewayIntentBits} = require('discord.js');
 
 const client = new Client({
     //Permissions du bot
@@ -14,4 +14,4 @@ Client.on("ready", () => {
     console.log(`Bot logged in as ${client.user.username}!`);
 });
 
-client.login("")
+client.login("");
